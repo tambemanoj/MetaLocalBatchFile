@@ -1,13 +1,11 @@
-FROM python:3.8.2-alpine3.11
+FROM node:19-alpine3.16
 
-ENV FLASK_APP=main.py
-ENV FLASK_ENV=development
+WORKDIR /usr/app
 
-COPY . /app
-WORKDIR /app
+COPY / .
 
-RUN pip install -r requirements.txt
+RUN npm install
 
+EXPOSE 80
 
-
-ENTRYPOINT FLASK_APP=/app/server.py flask run --host=0.0.0.0 --port=80
+CMD [ "node", "server.js" ]
