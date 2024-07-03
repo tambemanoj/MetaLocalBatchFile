@@ -2,7 +2,7 @@
  
 cd C:\Users\tcuser\Desktop\JenkinsAzure
  
-SET JAVA_HOME=C:\Program Files\Java\jdk-18.0.2
+SET JAVA_HOME=C:\Program Files\Java\jdk-17
  
 SET PATH=%JAVA_HOME%;%PATH%
  
