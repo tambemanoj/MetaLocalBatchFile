@@ -1,6 +1,6 @@
 @echo java path
  
-cd C:\Users\ManojTambe\Desktop\AzureDevopsBatchFile
+cd C:\Users\tcuser\Desktop\JenkinsAzure
  
 SET JAVA_HOME=C:\Program Files\Java\jdk-18.0.2
  
