@@ -10,4 +10,4 @@ SET PATH=%JAVA_HOME%;%PATH%
  
 SET MYCP=./target/*.jar;./target/classes;./target/test-classes
  
-call C:\apache-maven-3.9.3\bin\mvn test 
+call C:\Program Files\apache-maven-3.9.1\bin\mvn test 
